@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center; 
+  }
+  .header {
+      display: block;
+      padding:5px;font-size:20px;background-color:aqua;
+      opacity: 50%;
+  }
+  body {
+    background-color: lightblue;
+  }
+  .russia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+  }
+
+  .text {
+    display: flex;
+    justify-content: center;
+    border-spacing: 100px;
+    gap: 300px;
+  }
