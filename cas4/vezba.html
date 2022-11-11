@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <label for="Username">Username:</label>
+            <input type="text" name="user-name" id="Username" placeholder="username" required><br>
+            <label for="userPassword">Password:</label>
+            <input type="password" name="password" id="userPassword" placeholder="password" required><br>
+            <p>Gender</p>
+            <label for="Masko">Male</label>
+            <input type="radio" name="Gender" id="Masko" value="Male" required>
+            <label for="Zensko">Female</label>
+            <input type="radio" name="Gender" id="Zensko" value="Female" required>
+            <p>Choose continent</p>
+            <select name="Continent" id="Continent" required>
+                <option value="" selected disabled hidden>Kontinent</option>
+                <option value="Asia">Asia</option>
+                <option value="EU">EU</option>
+                <option value="Africa">Africa</option>
+
+            </select>
+
+            <p>Jadneje</p>
+            <label for="Breakfast">Breakfast</label>
+            <input type="checkbox" name="Jadenje" id="Breakfast" value="dorucek"><br>
+            <label for="Lunch">Lunch</label>
+            <input type="checkbox" name="Jadenje" id="Lunch" value="Rucek"><br>
+            <label for="Dinner">Dinner</label>
+            <input type="checkbox" name="Jadenje" id="Dinner" value="Vecera"><br>
+
+            <p>Comment</p>
+            <textarea name="Comment" id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset> 
+
+
+
+    </form>
+</body>
+
+</html>
