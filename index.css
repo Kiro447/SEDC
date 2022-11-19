@@ -1,0 +1,29 @@
+body{
+    box-sizing: content-box;
+}
+
+.section-one {
+    position:relative;
+    height: 300px;
+    background-color: blue;
+    border: 2px solid black;
+}
+.one {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top:1%;
+    left:2%;
+    background-color: yellow;
+   
+}
+.two{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top:50%;
+    left:2%;
+    background-color: green;
+    
+    
+}

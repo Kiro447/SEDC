@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>STUDENT EXCERCISE</h1>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Testform</legend>
+        <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div class="form-group">
+         <span class="label">Gender</span>
+         <input type="radio" name="Gender" id="Male" value="Male">
+         <label for="Male">Male</label>
+        </br>
+         <input type="radio" name="Gender" id="Female" value="Female">
+         <label for="Female">Female</label>
+        </div>
+        <div class="form-group">
+            <label for="continent">Continent</label>
+            <select name="Continent" id="continent">
+                <option value="Asia">Asia</option>
+                <option value="Africa">Africa</option>
+                <option value="South Usa">South Usa</option>
+                <option value="Europe">Europe</option>
+
+            </select>
+        </div>
+        <div class="form-group">
+            <span class="label">Meals</span>
+            <span class="options-container">
+            <input type="checkbox" name="meals" id="breakfast" value="breakfast">
+            <label for="Breakfast">Breakfast</label>
+            <br>
+            <input type="checkbox" name="meals" id="lunch" value="lunch">
+            <label for="lunch">Lunch</label>
+            <br>
+            <input type="checkbox" name="meals" id="dinner" value="dinner">
+            <label for="dinner">dinner</label>
+            <br>
+        </span>
+        
+        </div>
+        <div class="form-group">
+            <label for="remark">Remark</label>
+            <textarea name="remark" id="remark" cols="30" rows="10"></textarea>
+
+        </div>
+        <hr>
+        <div class="btn-container">
+            <button type="reset"  class="btn">Reset</button>
+            <button  class="btn btn-sec">Submit</button>
+
+        </div>
+    </fieldset>
+    </form>
+
+    
+</body>
+</html>

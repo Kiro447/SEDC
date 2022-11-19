@@ -1,0 +1,28 @@
+* , body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* width gi sreduva site i border i padding */
+}
+
+label {
+    width: 200px;
+    display:inline-block;
+    text-align: right;
+    margin-bottom: 20px
+}
+input {
+    height: 30px;
+}
+.para {
+    
+}
+.parr {
+    display:inline-block;
+    text-align: right;
+    width: 51vw;
+}
+.pa {
+    display:inline-block;
+    width:200px;
+    text-align: left;
+}
