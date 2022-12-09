@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+}
+div{
+    width: 10000px;
+    height: 100000px;
+    background-color: black;
+}
