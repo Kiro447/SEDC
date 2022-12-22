@@ -52,7 +52,7 @@
 let myBtn = document.getElementById("myButton")
 let firstPara = document.getElementById("para");
 function changeStyles(element){
-    element.styles.color = "red"
+    element.styles.color = "red";
     element.styles.backgroundColor = "blue";
     element.style.fontSize = "34px";
 }
