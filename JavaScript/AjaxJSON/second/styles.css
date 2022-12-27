@@ -1,0 +1,38 @@
+h1{
+    background-color: black;
+    color: white;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    
+}
+
+#cardContainer{
+    display:flex;
+    width: 80%;
+margin: 0px auto;
+
+}
+
+.cardsContainer{
+display:flex;
+width: 100%;
+background-color: gray;
+border-radius: 50%;
+}
+.cardsContainer_card_left{
+    display:flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 30px;
+    background-color: red;
+    align-items: baseline;
+    justify-content: center;
+}
+.cardsContainer_card_right{
+    display:flex; 
+    width: 50%;
+    flex-direction: column;
+    background-color: blue;
+    align-items: flex-end;
+    justify-content: center;
+}
+
