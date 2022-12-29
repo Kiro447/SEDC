@@ -72,8 +72,8 @@ for (i = 1; i <= 100; i++) {
 }
 let forthPara = newDiv.appendChild(document.createElement("p"));
 
-for (const arratChecker in checkArray) {
-  forthPara.innerText += `${arratChecker}: ${checkArray[arratChecker]}\n`;
+for (const arrayChecker in checkArray) {
+  forthPara.innerText += `${arrayChecker}: ${checkArray[arrayChecker]}\n`;
 }
 
 //
