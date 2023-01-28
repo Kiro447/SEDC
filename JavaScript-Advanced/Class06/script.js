@@ -118,3 +118,5 @@ let sortedGradesLow = allGrades.sort((a,b) => a-b) // a-b b-a
 console.log(allGrades); //rabotis na allGrades nizata sort ne kreira nova niza raboti na taa sto ja zima
 console.log(sortedGrades);
 console.log(sortedGradesLow);
+
+let allGradesCopy = [...allGrades];

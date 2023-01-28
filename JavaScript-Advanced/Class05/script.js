@@ -1,6 +1,6 @@
 const apiParameters = {
   globalCity: `Skopje`,
-  apiKey: `209fee4d37fdc854b4dd1aca323be16f`,
+  apiKey: `74e59f6374abe0d9b758877616ae444c`,
   apiFirstUrl: `https://api.openweathermap.org/data/2.5/onecall`,
   apiSecondUrl: `https://api.openweathermap.org/data/2.5/forecast`,
   imgUrl: ` http://openweathermap.org/img/wn/`,
@@ -53,9 +53,9 @@ function cardCreator(data) {
         <h1>${data.timezone}</h1>
         <h1>DayTime ${new Date(data.hourly[i].dt * 1000)}</h1>
         <h1>Temperature ${data.hourly[i].temp}</h1>
-        <h1>FEELS LIKE ${data.hourly[i].feels_like}</h1>
-        <h1>PRESSURE ${data.hourly[i].pressure}</h1>
-        <h1>HUMIDITY ${data.hourly[i].humidity}</h1>
+        <h1>Feels Like ${data.hourly[i].feels_like}</h1>
+        <h1>Pressure ${data.hourly[i].pressure}</h1>
+        <h1>Humidity ${data.hourly[i].humidity}</h1>
         <br>
     `;
     newDiv.style.border = '1px solid black'
